@@ -3,7 +3,7 @@ body {
 }
 
 #first{
-    color: blue;
+    color: rgb(157, 78, 137);
 }
 
 .holder{
@@ -19,7 +19,7 @@ body {
 }
 
 .bigger{
-    font-size: 24pt;
+    font-size:20px;
 }
 
 main .bigger{
