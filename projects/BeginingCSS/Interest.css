@@ -4,3 +4,28 @@ body{
     font-size: 20px;
     background-color: rgb(255, 255, 170);
 }
+
+#frist{
+    color: rgb(154, 24, 121);
+}
+
+#Interest{
+    font-size: 50px;
+}
+
+#Hero{
+    font-size: 50px;
+}
+
+.emp{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:rgb(97, 173, 206)
+}
+
+#emphasize{
+        color: rgb(49, 147, 200);
+}
+
+#de-emphasize{
+    color: rgb(49, 147, 200)
+}
