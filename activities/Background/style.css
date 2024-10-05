@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(249, 254, 254);
+    background-color: aqua;
+    background-image: url(textured.jpg);
+}
+
+header {
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(favicon.ico);
+}
+
+nav a {
+    color: rgb(17, 219, 78);
+}
+
+.current {
+    color: rgb(234, 140, 25);
+}
+
