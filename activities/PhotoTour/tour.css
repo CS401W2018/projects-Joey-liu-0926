@@ -1,0 +1,21 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(240, 244, 244);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(textured.jpg);
+}
+
+main{
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url(flag.png);
+}
+
+.current{
+    color: antiquewhite;
+}
+
+.list{
+    list-style-image: url('flag1.jpg');
+}
