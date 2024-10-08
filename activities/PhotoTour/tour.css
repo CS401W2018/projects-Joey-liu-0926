@@ -6,7 +6,7 @@ body{
     background-image: url(textured.jpg);
 }
 
-main{
+ul{
     background-repeat: no-repeat;
     background-position: right;
     background-image: url(flag.png);
