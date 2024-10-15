@@ -1,0 +1,11 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #AAA;
+}
+
+#wrapper{
+    background-color: #e92222;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}

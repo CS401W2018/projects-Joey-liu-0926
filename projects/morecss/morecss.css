@@ -1,9 +1,13 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: aliceblue;
 }
 
 #wrapper{
-    width: 600px;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #FFF;
+    border: thin solid black;
 }
 
 header{
