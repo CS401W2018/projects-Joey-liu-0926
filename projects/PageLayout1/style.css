@@ -1,0 +1,40 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 300px;
+    background-color: lightgrey;
+}
+
+nav{
+    width: 300px;
+    background-color: aliceblue ;
+}
+
+
+#pic1{
+    width: 200px;
+    border: 1px solid #000;
+    float:right ;
+}
+
+#pic1 img {
+    width: 200px;
+}
+
+#pic2{
+    width: 200px;
+    border: 1px solid #000;
+    position:fixed;
+    bottom: 30px;
+    right: 220px;
+}
+
+#pic2 img{
+    width: 200px;
+}
+
+.clear{
+    clear: both;
+}
