@@ -2,6 +2,29 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+nav ul{
+    list-style-type: none;
+}
+
+nav a{
+    display:block;
+    padding: 10px  5px;
+    background-color: rgb(153, 220, 158);
+    border-bottom: thin solid #FFF;
+    margin-left: 10px;
+    width: 80px;
+    color: rgb(215, 77, 162);
+}
+
+nav a:hover{
+    background-color: rgb(97, 97, 162);
+    color: aliceblue;
+}
+
+nav li{
+    float: left;
+}
+
 header{
     width: 300px;
     background-color: lightgrey;
@@ -16,7 +39,7 @@ nav{
 #pic1{
     width: 200px;
     border: 1px solid #000;
-    float:right ;
+    float:right;
 }
 
 #pic1 img {

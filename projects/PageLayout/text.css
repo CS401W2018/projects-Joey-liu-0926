@@ -1,11 +1,80 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #AAA;
+    background-color: #FFF;
 }
 
 #wrapper{
-    background-color: #e92222;
-    width: 900px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 800px;
+    margin:0 auto;
+}
+
+header{
+    background-image: url(textured.jpg);
+    background-size: 300px;
+    background-origin: content-box;
+    background-clip: content-box;
+    text-align: center;
+    height: 60px;
+    border-radius: 10px;
+}
+
+
+nav{
+    background-color: bisque;
+    padding: 10px;
+    margin-top:30px;
+    border-radius: 10px;
+    box-shadow:2px 2px 3px #cb2121;
+}
+
+nav a{
+    padding: 10px;
+    border:thin solid #FFF;
+    width: 50px;
+    color: #000;
+}
+
+nav a:hover{
+    background-color: rgb(241, 166, 236);
+    color: aliceblue;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.p1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style:italic;
+    line-height: 2;
+    text-transform: capitalize;
+}
+
+.p2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:medium;
+    font-style: oblique;
+    text-shadow: 1px 1px 2px #0bc2e7;
+}
+
+.p3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-shadow:1px 2px 3px bisque;
+}
+
+#pic{
+    width: 200px;
+    border: 1px solid #000;
+    float: right;
+    border-radius: 10px;
+}
+
+
+#pic img{
+    width:200px
 }
