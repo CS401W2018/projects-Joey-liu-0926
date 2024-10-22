@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 10px;
+}
+
+header{
+    background-color: rgb(20, 151, 151);
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: bisque;
+}
+
+nav a{
+    display: block;
+    color: rgb(215, 77, 162);
+    padding: 5px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    grid-template-areas: "asideLeft mainRight" ;
+}
+
+aside{
+    grid-area: asideLeft;
+    background-color: rgb(140, 206, 206);
+}
+
+main{
+    grid-area: mainRight;
+    background-color: rgb(223, 212, 235);
+    height:800px;
+
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+gap: 5px;
+grid-template-areas: 
+   "top1 top2 top3"
+   "bottom1 bottom2 bottom3";
+}
+
+.item{
+    background-color: rgb(242, 193, 193);
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.item figure img{
+    border: 1px solid #000;
+    width: 70%;
+    height: 50%;
+}
+
+.itemA{
+    grid-area: top1;
+}
+
+.itemB{
+    grid-area: top2;
+}
+
+.itemC{
+    grid-area: top3;
+}
+
+.itemD{
+    grid-area: bottom1;
+}
+
+.itemE{
+    grid-area: bottom2;
+}
+
+.itemF{
+    grid-area: bottom3;
+}
+
+footer a{
+    display:block;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(3,2fr);
+}
