@@ -1,0 +1,51 @@
+body{
+    font-family:'bungee',cursive;
+    margin: 0;
+}
+
+header{
+    background-color: rgb(245, 188, 236);
+    color: #fff;
+}
+
+header h1{
+    margin: 0;
+}
+
+nav{
+    display: none;
+}
+
+nav a{
+    display: block;
+    padding: 5px 5px;
+    color: #fff;
+    text-decoration:none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    gap: 5PX;
+    justify-content: space-evenly;
+}
+
+.card{
+    width:200px;
+    border: thin solid #000;
+    box-shadow: 3px 3px 5px #51675e;
+    margin: 5px;
+}
+
+.card img{
+    width:100%;
+}

@@ -1,0 +1,96 @@
+body{
+    font-family:'bungee',cursive;
+}
+
+header{
+    background-color: rgb(245, 188, 236);
+    color: #fff;
+}
+
+nav{
+    background-color: rgb(252, 225, 194);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav a{
+    display: block;
+    padding: 5px 5px;
+    color: #fff;
+    text-decoration:double;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.container{
+    display:flex;
+    gap:20px;
+    padding:20px;
+}
+
+.sidebar{
+    padding: 20px;
+    background-color: #dbacac;
+    width:25%;
+}
+
+.sidebar figure{
+    text-align: center;
+}
+
+.sidebar img{
+    width:100%;
+    border-radius: 5px;
+}
+
+.sidebar ul{
+    margin-top:10px;
+}
+
+main{
+    display: flex;
+    gap:20px;
+    background-color: #ebc7e6;
+    padding: 20px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+}
+
+
+.card{
+    width:200px;
+    border: thin solid #000;
+    box-shadow: 3px 3px 5px #51675e;
+    margin: 10px;
+    text-align: center;
+}
+
+.card img{
+    width:100%;
+}
+
+@media only screen and (max-width: 650px) {
+    body {
+        background-color: rgb(242, 249, 246);
+    }
+    nav{
+        flex-direction: column;
+    }
+    nav a {
+        border-bottom: thin solid #dbacac;
+    }
+    .row{
+        justify-content: center;
+    }
+    .card{
+        width: 100%;
+        margin: 10px 10px;
+    }
+}
+
