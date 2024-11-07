@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post">
+            First Name: <input type="text" name="first" value="Joey" required><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            password: <input type="password" name="pass"><br>
+            <input type="checkbox" name="rember" checked> Remember Me <br>
+            Grade: 
+            <input type="radio" name="grade" value="Freshman"> Freshman <br>
+            <input type="radio" name="grade" value="Sophmore"> Sophmore <br>
+            <input type="radio" name="grade" value="Junior"> Junior <br>
+            <input type="radio" name="grade" value="Senior"> Senior <br>
+            <select name="state" id="state">
+                <option value="Hawaii">Hawaii</option>
+                <option value="Chengdu" selected>Chengdu</option>
+                <option value="Utah">Utah</option>
+            </select>
+            <textarea name="comment" id="">Aloha</textarea>
+            <input type="submit">
+        </form>
+        <h2>Engagement</h2>
+        <h3>1.The form tag has an "action" attribute. What does it do?</h3>
+        <p>The action attribute specifies the URL where the form data should be sent when the form is submitted.</p>
+        <h3>2.The form tag has a "method" attribute. What does it do?</h3>
+        <p>The method attribute specifies the HTTP method to be used when submitting the form. </p>
+        <h3>3.What is the difference between a "POST" and a "GET"?</h3>
+        <p>get: GET is less secure for transmitting sensitive data since the data is visible in the URL</p>
+        <p>post: is more secure because the data is not visible in the URL</p>
+    </main>
+    <footer>
+        <p>&copy;Joey 2024/11/6</p>
+    </footer>
+</body>
+</html>
