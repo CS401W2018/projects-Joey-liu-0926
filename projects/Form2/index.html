@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Web Design</h1>
+    </header>
+    <nav></nav>
+    <main>
+      <form action="process.html" method="post">
+        <fieldset>
+          <legend>Sign Up</legend>
+
+          <div class="form-row">
+            <label for="first name">First Name: </label>
+            <input id="first name" type="text" name="first" value="Joey" required />
+          </div>
+        
+          <div class="form-row">
+            <label for="lname">Last Name: </label>
+            <input type="text" name="last" placeholder="Last Name" id="lname"/>
+          </div>
+
+          <div class="form-row">
+            <label for="pass">Password: </label>
+            <input type="text" name="pass" id="pass" />
+          </div>
+
+          <div class="check-row">
+            <div class="spacer"></div>
+            <label>
+              <input type="checkbox" name="remember" checked />Remember Me
+            </label>
+          </div>
+
+          <div class="form-row">
+            <label for="state">State</label>
+            <select name="state" id="state">
+              <option value="blank">Hi</option>
+              <option value="blank">Hi</option>
+              <option value="blank">Hi</option>
+              <option value="blank">Hi</option>
+              <option value="blank">Hi</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <label for="comments">Comments</label>
+            <textarea name="comments" id="comments"></textarea>
+          </div>
+
+          <div class="check-row">
+            <div class="spacer">Class:</div>
+
+            <label><input type="radio" value="fresh" />Fresh</label>
+            <label><input type="radio" value="fresh" />Fresh</label>
+            <label><input type="radio" value="fresh" />Fresh</label>
+            <label><input type="radio" value="fresh" />Fresh</label>
+            <label><input type="radio" value="fresh" />Fresh</label>
+          </div>
+
+          <div class="form-row">
+            <div class="spacer"></div>
+            <input type="submit" />
+          </div>
+        </fieldset>
+      </form>
+      <hr />
+      <ol>
+        <h1>Engagemenet Questions</h1>
+        <li>
+          <h3>What are different ways to style your form?</h3>
+          <p> There are so many different way to style our form, flex; grid;
+            float.</p>
+        </li>
+        <li>
+          <h3>Why does the professor like to use flex?</h3>
+          <p>Because flex really easy and helpful to arrange the layouting
+            position. And it's also because flex are able to modify to row and column, which
+            is right, left, top, bottom. It is so easy to arrange our element
+            HTML.</p>
+        </li>
+      </ol>
+
+      <hr />
+      <h2>Note</h2>
+      <p>do not use br but try surround by div.</p>
+    </main>
+    <footer>
+      <p>&copy; Joey, 2024</p>
+    </footer>    
+</body>
+</html>
