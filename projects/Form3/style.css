@@ -1,0 +1,173 @@
+    header {
+    width: 100%;
+    height: 30%;
+    background-color: rgb(225, 178, 220);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  main {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 234, 245);
+  }
+  
+  form {
+    width: 100%;
+    height: 50%;
+    padding: 5px 5px;
+    background-color: #f8cdfa;
+  }
+  
+  fieldset {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(213, 241, 239);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  legend {
+    border: 1px thin solid black;
+    background-color: rgb(197, 242, 197);
+    padding: 15px;
+    color: white;
+  }
+  
+  input {
+    padding: 5px;
+    border: 3px solid rgba(194, 229, 235, 0.8);  }
+  
+  textarea {
+    padding: 5px;
+    border: 3px solid rgba(9, 122, 142, 0.8);
+  }
+  
+  select {
+    padding: 5px; 
+    border: 3px solid rgba(116, 188, 227, 0.8);
+  }
+  
+  .form-box {
+    margin: 10px;
+    display: flex;
+  }
+  
+  .form-box label {
+    width: 200px;
+    text-align: left;
+  }
+  
+  .radio-box {
+    margin: 10px;
+    display: flex;
+  }
+  
+  .container-inside {
+    display: flex;
+  }
+  
+  .radio-label {
+    width: 90px;
+    text-align: left;
+  }
+  
+  .check-box {
+    margin: 10px ;
+    display: flex;
+  }
+  
+  .spacer {
+    width: 200px;
+    text-align: right;
+  }
+  
+  .check-box {
+    display: flex;
+  }
+  
+  .submit {
+    background-color: #000;
+    padding: 5px;
+    color: #fff;
+  }
+  
+  .submit:hover {
+    background-color: rgb(180, 108, 178);
+  }
+  
+  footer {
+    width: 100%;
+    height: 5%;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  @media screen and (max-width: 660px) {
+    header {
+      width: 100%;
+    }
+  
+    main {
+      width: 100%;
+      height: 100%;
+    }
+  
+    .inputBox {
+      width: 100%;
+    }
+  
+    footer {
+      width: 100%S;
+    }
+  
+    .spacer {
+      text-align: left;
+    }
+  
+    form {
+      width: 100%;
+      height: 100%;
+      padding: 10px 10px;
+    }
+  
+    .radio-box .radio-label1 {
+      text-align: left;
+    }
+  
+    .form-box,
+    .radio-box,
+    .check-box {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-box label,
+    .radio-label1,
+    .check1 {
+      width: 100%;
+      text-align: left;
+      margin-bottom: 5px;
+    }
+  
+    .submit {
+      width: 100%;
+      padding: 10px;
+    }
+  
+    fieldset {
+      padding: 20px;
+    }
+  }

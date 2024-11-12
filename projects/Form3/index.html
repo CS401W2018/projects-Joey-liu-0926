@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Form</h1>
+    </header>
+    <main>
+      <form action="process.html" method="post">
+        <fieldset>
+          <div class="form-box">
+            <label for="fullname">Full Name:</label>
+            <input
+              class="inputBox"
+              type="text"
+              id="fullname"
+              name="fullName"
+              required
+            />
+          </div>
+
+          <div class="form-box">
+            <label for="password">Password:</label>
+            <input
+              class="inputBox"
+              type="password"
+              id="password"
+              name="password"
+              required
+            />
+          </div>
+
+          <div class="form-box">
+            <label for="email">Email:</label>
+            <input
+              class="inputBox"
+              type="email"
+              id="email"
+              name="email"
+              required
+            />
+          </div>
+
+
+          <div class="form-box">
+            <label for="dob">Date of Birth:</label>
+            <input class="inputBox" type="date" id="dob" name="dateOfBirth" />
+          </div>
+
+          <div class="form-box">
+            <label for="comments">Comments:</label>
+            <textarea
+              class="inputBox"
+              id="comments"
+              name="comments"
+              rows="6"
+              cols="35"
+            ></textarea>
+          </div>
+
+          <div class="check-box">
+            <label class="spacer" for="terms">Term:</label>
+            <div class="container-inside">
+              <input type="checkbox" id="terms" name="terms" required />
+              <label for="terms">I agree to the terms and conditions</label>
+            </div>
+          </div>
+
+          <div class="form-box">
+            <div class="spacer"></div>
+            <input class="inputBox submit" type="submit" value="Submit" />
+          </div>
+        </fieldset>
+      </form>
+    </main>
+    <footer>
+      <p>&copy;Joey  2024</p>
+    </footer>
+  </body>
+</html>
