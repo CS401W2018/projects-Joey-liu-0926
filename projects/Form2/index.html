@@ -12,7 +12,7 @@
     </header>
     <nav></nav>
     <main>
-      <form action="process.html" method="post">
+      <form action="process.html" method="post" id="myForm">
         <fieldset>
           <legend>Sign Up</legend>
 
@@ -109,6 +109,29 @@
     </main>
     <footer>
       <p>&copy; Joey, 2024</p>
-    </footer>    
+    </footer>  
+    <script>
+      document,getElementById("myForm").addEventListerner('sbumit',function(event) {
+          event.preventDefault();
+          const firstName = document.getElementById('firstName').value;
+          const lastName = document.getElementById('lastName').value;
+          const age = document.getElementById('age').value;
+          const formData={
+            firstName: firstName,
+            lastName: lastName,
+            age: age
+          }
+          if(!firstName || !lastName){
+            alert("firstNAme and lastName required!");
+            return;
+          }
+          if (!age || age < 18){
+            alert("You must be 18 to sign up!");
+            return;
+          }
+          console.log('formData');
+          alert("You submit the form!");
+      })
+  </script>  
 </body>
 </html>
