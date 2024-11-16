@@ -74,34 +74,13 @@
       <ol>
         <h1>Engagemenet Questions</h1>
         <li>
-          <h3>What are different ways to style your form?</h3>
-          <p> There are so many different way to style our form, flex; grid;
-            float.</p>
+        <h3>What is AJAX?</h3>
+        <p>It is a set of web development techniques that allow web applications to communicate with a server asynchronously</p>
         </li>
         <li>
-          <h3>Why does the professor like to use flex?</h3>
-          <p>Because flex really easy and helpful to arrange the layouting
-            position. And it's also because flex are able to modify to row and column, which
-            is right, left, top, bottom. It is so easy to arrange our element
-            HTML.</p>
+        <h3>Why do you put your JS Code in a separate file?</h3>
+        <p>it makes your HTML file less cluttered and your JavaScript code more readable and easier to manage</p>
         </li>
-        <li>
-        <h3>What is JavaScript? How did it get its name?</h3>
-        <p>It's a programming language that used to run the browsers inside the computers.</p>
-        </li>
-        <li>
-        <h3>What are the two ways you can run JavaScript?</h3>
-        <p>1. in the browsers. 2.on the server</p>
-        </li>
-        <li>
-        <h3>What was the most popular front-end js library?</h3>
-        <p>react</p>
-        </li>
-        <li>
-        <h3>What is the most popular front-end js library today?</h3>
-        <p>jQuery.js</p>
-        </li>
-      </ol>
 
       <hr />
       <h2>Note</h2>
@@ -116,11 +95,6 @@
           const firstName = document.getElementById('firstName').value;
           const lastName = document.getElementById('lastName').value;
           const age = document.getElementById('age').value;
-          const formData={
-            firstName: firstName,
-            lastName: lastName,
-            age: age
-          }
           if(!firstName || !lastName){
             alert("firstNAme and lastName required!");
             return;
@@ -129,9 +103,28 @@
             alert("You must be 18 to sign up!");
             return;
           }
+          const formData={
+            firstName: firstName,
+            lastName: lastName,
+            age: age
+            password:document.getElementById("password").value,
+            remembr: document.getElementById("remember").checked,
+            state:document.getElementById("state").value,
+            class:document.querySelector('input[name="class"]:checked'),
+          }
+          const xhr = new XMLHttpRequest();
+          xhr.open("POST","submit.js",true);
+          xhr.setRequestHeader("Content-Type","application/json:charset=UTF-8");
+          xhr.onreadystatechange=function(){
+            if (xhr.readyState === 4 && xhr.status === 200) {
+              alert('Form submitted seccessfully.')
+            } else if (xhr.redayState === 4) {
+              alert("You submit the form!");
+            }
+          };
+          xhr.send(JSON.stringify(formData));
           console.log('formData');
-          alert("You submit the form!");
-      })
+      });
   </script>  
 </body>
 </html>
