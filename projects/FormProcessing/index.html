@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <header>
+        <h1>Things about yourself</h1>
+    </header>
+    <main>
+        <form action="processing.html" method="post" id="myForm">
+            First Name: <input type="text" name="first" value="Joey" required><br>
+            Last Name: <input type="text" name="last" placeholder="Last Name"><br>
+            password: <input type="password" name="pass"><br>
+            <input type="checkbox" name="rember" checked> Remember Me <br>
+            Grade: 
+            <input type="radio" name="grade" value="Freshman"> Freshman <br>
+            <input type="radio" name="grade" value="Sophmore"> Sophmore <br>
+            <input type="radio" name="grade" value="Junior"> Junior <br>
+            <input type="radio" name="grade" value="Senior"> Senior <br>
+            <select name="state" id="state">
+                <option value="Hawaii">Hawaii</option>
+                <option value="Chengdu" selected>Chengdu</option>
+                <option value="Utah">Utah</option>
+            </select>
+            <textarea name="comment" id="">Aloha</textarea>
+            <input type="submit">
+        </form>
+    </main>
+    <footer>
+        <p>&copy;Joey 2024</p>
+    </footer>
+</body>
+</html>

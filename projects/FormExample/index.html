@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Things about yourself</title>
+    <link rel="stylesheet" href="example.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Things about yourself</h1>
+    </header>
+    <main>
+      <div id="information"></div>
+      <form id="myForm">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" />
+        </div>
+
+        <div class="form-group">
+          <label for="Birthday">Birthday:</label>
+          <input type="number" id="birthday" name="birthday" placeholder="Enter your birthday"/>
+        </div>
+
+        <div class="form-group">
+          <label for="Country">Country:</label>
+          <select id="Country" name="Country">
+            <option value="" disabled selected>Select your country</option>
+            <option value="USA">USA</option>
+            <option value="China">China</option>
+            <option value="Cananda">Cannada</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="comments">Comments:</label>
+          <textarea id="comments" name="comments" rows="3" placeholder="Share your experience"></textarea>
+        </div>
+
+
+        <div class="form-group">
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+    </main>
+    <footer><p>&copy;Joey, 2024</p></footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
