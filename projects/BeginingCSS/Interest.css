@@ -29,3 +29,11 @@ body{
 #de-emphasize{
     color: rgb(49, 147, 200)
 }
+
+.darker {
+    color: brown;
+}
+
+.bolder{
+    font-weight: 100;
+}
