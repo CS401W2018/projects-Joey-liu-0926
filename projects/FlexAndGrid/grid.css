@@ -35,13 +35,17 @@ main{
     background-color: rgb(223, 212, 235);
     height:800px;
 
-display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-grid-template-rows: 1fr 1fr;
-gap: 5px;
-grid-template-areas: 
-   "top1 top2 top3"
-   "bottom1 bottom2 bottom3";
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 5px;
+    grid-template-areas: 
+        "top1 top2 top3"
+        "bottom1 bottom2 bottom3";
+}
+
+figcaption{
+    text-align: center;
 }
 
 .item{

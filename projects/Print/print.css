@@ -16,16 +16,6 @@ nav{
     display: none;
 }
 
-nav a{
-    display: block;
-    padding: 5px 10px;
-    color: rgb(16, 168, 168);
-    text-decoration: none;
-}
-
-nav a:hover{
-    text-decoration: underline;
-}
 
 .row{
     display: flex;
