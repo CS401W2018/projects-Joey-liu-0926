@@ -27,7 +27,7 @@ nav a:hover{
     display: grid;
     grid-template-columns: 300px 300px 300px;
     gap: 100px;
-    margin-top: 20px;
+    margin-top: 50px;
     width: 300px;
 }
 
