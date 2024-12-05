@@ -54,3 +54,22 @@ grid-template-columns: 300px;
 margin-top: 50px;
 color: #fff;
 }
+
+@media only screen and (max-width: 600px){
+    nav {
+            background-color: #ecc6e5;
+            flex-direction: column;
+            margin-bottom: 70px;
+    }
+    
+    nav a{
+            border: thin solid #fff;
+            padding: 5px;
+    }
+
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
