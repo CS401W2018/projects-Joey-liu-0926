@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="food.html">Food</a>
+        <a href="panda.html">Panda</a>
+        <a href="places.html">Landmark</a>
+        <a href="contact.html" class="current">Contact Us</a>
+    </nav>
+    <main>
+        <div class="left">
+        <h3>Our Information</h3><hr>
+        <p>My name: Joey</p>
+        <p>Email: Joeyliu0926@go.byuh.edu </p>
+        <p>mail address: Laie</p>
+        <p>phone number: 12345678</p>
+        </div>
+        <div class="right">
+            <h3>Your Information</h3><hr>
+        <form action="processing.html">
+            <label for="yourNameInput">Your Name: </label><input type="text" name="yourName" id="yourNameInput"><br>
+            <label for="emailInput">Email: </label><input type="text" name="email" id="emailInput"><br>
+            <label for="phoneNumberInput">Phone Number: </label><input type="text" name="phonrNumber" id="phoneNumberInput"><br>
+            Gender:
+            <label><input type="radio" name="gender" value="male">male</label>
+            <label><input type="radio" name="gender" value="female">Female</label><br>
+            <label for="country">Country:</label><br>
+            <select name="country" id="country">
+                <option value="Spain">Spain</option>
+                <option value="China" selected>China</option>
+                <option value="United States">United States</option>
+                <option value="Others">Others</option>
+            </select><br>
+            Message us:<textarea name="comment" id="">Aloha</textarea>
+            <input type="submit">
+        </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; Joey Liu - 2024 / 12 / 04</p>
+    </footer>
+</body>
+</html>

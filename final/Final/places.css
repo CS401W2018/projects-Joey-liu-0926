@@ -1,0 +1,108 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: bisque;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+}
+
+nav a{
+    color: black;
+}
+
+nav a:hover{
+    background-color: #edcd8d;
+    color:#fff;
+}
+
+.current{
+    color: #fff;
+}
+
+main{
+    text-align: center;
+}
+
+.pic1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: 300px 350px 350px;
+    width: 300px;
+}
+
+.pic1 img {
+    width: 100%;
+}
+
+.p1{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.pic2 {
+    margin-left: 100px ;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 300px;
+}
+
+.pic2 img {
+    width: 100%;
+}
+
+.p2{
+    margin-top: 0px;
+}
+
+.pic3 {
+    margin-left: 100px ;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 300px;
+}
+
+.pic3 img {
+    width: 100%;
+}
+
+.p3{
+    margin-left: 50px;
+}
+
+.pic4 {
+    margin-left: 100px ;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 300px;
+}
+
+.pic4 img {
+    width: 100%;
+}
+
+.pic5 {
+    margin-left: 100px ;
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+    width: 300px;
+}
+
+.pic5 img {
+    width: 100%;
+}
+
+.p5{
+    margin-left: 50px;
+}
+
+
+
