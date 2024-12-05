@@ -104,5 +104,27 @@ main{
     margin-left: 50px;
 }
 
+@media only screen and (max-width: 600px){
+    nav {
+        background-color: #ecc6e5;
+        flex-direction: column;
+        margin-bottom: 70px;
+    }
+
+    nav a{
+        border: thin solid #fff;
+        padding: 5px;
+    }
+
+    .pic1{
+        margin-top: 150px;
+    }
+
+    .pic1, .pic2, .pic3, .pic4, .pic5 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
 
 
