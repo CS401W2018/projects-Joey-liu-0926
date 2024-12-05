@@ -102,6 +102,11 @@ main{
 
 .p5{
     margin-left: 50px;
+    margin-top: 100px;
+}
+
+#last{
+    margin-top: 100px;
 }
 
 @media only screen and (max-width: 600px){
